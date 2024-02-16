@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chandrakanth R</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/images/logoportfolio.png">
+    <script src="https://kit.fontawesome.com/cf1fa3cb16.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logoportfolio.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header" class="textcolor">Home</a></li>
+                        <li><a href="#about" class="textcolor">About</a></li>
+                        <li><a href="#services" class="textcolor">Services</a></li>
+                        <li><a href="#portfolio" class="textcolor">Portfolio</a></li>
+                        <li><a href="#contact" class="textcolor">Contact</a></li>
+                        <i class="fas fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+
+                    <h1>Hi, I'm <span>Chandrakanth R</span></h1>
+                    <p>Full Stack Web Developer</p>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!--About section-->
+
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/chandrakanth.jpg" width="450px" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I'm an enthusiastic Python Django Full Stack Developer, deeply passionate about the marriage of code and design. My journey in the tech world is characterized by an adventurous spirit and an insatiable curiosity for turning challenges into triumphs. <br><br>I thrive on being an adventurous problem solver, navigating the diverse landscape of coding with a keen eye for design aesthetics. I'm not just a coder; I'm an artistic coder, crafting applications that blend functionality with visual appeal. </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Hands On Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>Front-End Development:</span><br>&nbsp;&nbsp;&nbsp;HTML5<br>&nbsp;&nbsp;&nbsp;CSS3 , Bootstrap5 <br>&nbsp;&nbsp;&nbsp;JavaScript , jQuery<br>&nbsp;&nbsp;&nbsp;<br>JavaScript Libraries : React.js</li>
+                                    <li><span>Back-End Development:</span><br>Server-Side Languages: <br>&nbsp;&nbsp;&nbsp;Python Django(4.2) Framework</li>
+                                    <li><span>Database Management Systems(DBMS):</span><br>&nbsp;&nbsp;&nbsp;MySQL <br>&nbsp;&nbsp;&nbsp;SQlite</li>
+                                    <li><span>Technical Competencies:</span><br>&nbsp;&nbsp;&nbsp;Data Structures <br>&nbsp;&nbsp;&nbsp;OOP</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>Full Stack Web
+                                        Development:</span><br>Developed full-stack web applications, leveraging skills in both front-end <br>and back-end (Django and MySQL) technologies.</li>
+                                        <li><span>Library
+                                            Management
+                                            System( 1-month Internship-Infotrixs)</span><br>Developed a modern Library Management System using React.js and <br> integrated RESTful APIs
+                                            to facilitate dynamic data retrieval</li>
+                                    <li><span>Database
+                                        Management:</span><br>
+                                        Managed databases effectively, ensuring seamless data organization and <br> retrieval to enhance the overall functionality of web applications.</li>
+                                        <li><span>Cross-Functional
+                                            Collaboration</span><br>Worked with cross-functional teams to deploy applications on servers,<br> ensuring
+                                            the harmonious integration of front-end and back-end functionalities.</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>B Tech(Computer Science & Engineering)  2019-2023</span><br>College Of Engineering Adoor,Kerala</li>
+                                    <li><span>Higher Secondary - 2017</span><br>Mar Thoma Higher Secondary School Pathanamthitta,Kerala</li>
+                                    <li><span>High School - 2015</span><br>Mar Thoma Higher Secondary School Pathanamthitta,Kerala</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--services section-->
+
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Website Development:</h2>
+                        <p>Crafting visually appealing and user-friendly websites that go beyond mere digital presence. My focus is on creating engaging interfaces, seamless navigation, and responsive designs, ensuring a captivating online experience for visitors.</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>Web Application Development:</h2>
+                        <p>Building dynamic and feature-rich web applications tailored to meet your specific business goals. From concept to execution, I leverage a comprehensive skill set in both front-end and back-end technologies to create robust, scalable, and interactive solutions that elevate your online capabilities.</p>
+                        
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-python"></i>
+                        <h2>Python Developer</h2>
+                        <p> As a dedicated Python developer, I offer a comprehensive range of services to transform your ideas into robust and scalable solutions. Specializing in web development using frameworks like Django. I craft dynamic and user-friendly applications that leave a lasting impression.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        
+        <!-------porfolio section--------->
+        
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Works</h1>
+                <div class="work-list">
+
+                    <div class="work">
+                        <img src="/images/workhospital.png"/>
+                        <div class="layer">
+                            <h3>I Hospital(Django)</h3>
+                            <p>The Django-based hospital website is a comprehensive online platform that seamlessly
+                                integrates information about the hospital's services, medical professionals, and specialties,
+                                offering users a user-friendly experience for accessing healthcare resources and booking
+                                appointments.</p>
+                            <a href="https://github.com/chandrakanth2001/firstdjangoprjct" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="/images/imagesearch.png"/>
+                        <div class="layer">
+                            <h3>Image Search Engine using Unsplash API</h3>
+                            <p>Dive into a visual exploration with my newly developed Image Search Engine, a seamless blend of HTML, CSS, and JavaScript, backed by the robust Unsplash API. This web application offers users an immersive experience as they effortlessly navigate through a vast repository of high-quality images. </p>
+                            <a href="https://chandrakanth2001.github.io/ImageSearchPage/" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="/images/weatherpage.png"/>
+                        <div class="layer">
+                            <h3>WeatherNow (OpenWeathermap API)</h3>
+                            <p>Weather Information Page that brings real-time weather updates to your fingertips. Designed with a focus on both functionality and aesthetics, the page allows users to effortlessly check current weather conditions for any location, creating an engaging user experience.</p>
+                            <a href="https://chandrakanth2001.github.io/WeatherNow/" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+                <!--works second portion-->
+
+                <div id="portfolio">
+                    <div class="container">
+                        <div class="work-list">
+            
+                            <div class="work">
+                                <img src="/images/quizpage.png"/>
+                                <div class="layer">
+                                    <h3>10/10 Quiz Page(HTML,CSS,Js)</h3>
+                                    <p>Start a coding journey with my Quiz App! Answer 10 questions on web development and programming, enjoying a user-friendly interface built with basic HTML, CSS, and JavaScript.</p>
+                                    <a href="https://chandrakanth2001.github.io/10-10-QuizPage/" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                                </div>
+                            </div>
+            
+                            <div class="work">
+                                <img src="/images/digitalclock.png"/>
+                                <div class="layer">
+                                    <h3>Digital Clock</h3>
+                                    <p>Experience the elegance of time with my Digital Clock project, skillfully crafted using HTML, CSS, and JavaScript. This sleek and responsive clock brings real-time precision to your screen, seamlessly blending functionality with a minimalist design.</p>
+                                    <a href="https://chandrakanth2001.github.io/Digital-clock/" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                                </div>
+                            </div>
+            
+                            <div class="work">
+                                <img src="/images/workckx.png"/>
+                                <div class="layer">
+                                    <h3>CKX Cloud Gaming</h3>
+                                    <p>This Bootstrap 5 gaming website features a dynamic design, showcasing popular games with
+                                        captivating visuals, a user-friendly navigation bar, and a selection of games on sale, providing an
+                                        engaging experience for visitors.</p>
+                                    <a href="https://github.com/chandrakanth2001/CKXcloudGaming" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+    <!--try-->
+
+    <div id="portfolio">
+        <div class="container">
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="/images/snakegame.png"/>
+                    <div class="layer">
+                        <h3>F Hunt</h3>
+                        <p>Experience retro gaming fun with my Snake Game, created using HTML, CSS, and JavaScript. Navigate the snake through the grid, grow longer with each "apple" eaten, and enjoy a classic, user-friendly interface for a nostalgic gaming experience.</p>
+                        <a href="https://chandrakanth2001.github.io/snakegamehtmlcssjs/" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="/images/todolist.png"/>
+                    <div class="layer">
+                        <h3>To-do list (HTML,CSS,Js)</h3>
+                        <p>Introducing the ToDo List-a sleek and efficient task management tool designed to elevate your productivity. Crafted with a blend of HTML, CSS, and JavaScript, this application offers a seamless and visually pleasing experience for organizing your daily tasks.</p>
+                        <a href="https://chandrakanth2001.github.io/Todolistpage/" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="/images/notespage.png"/>
+                    <div class="layer">
+                        <h3>NotesPage (HTML,CSS,Js)</h3>
+                        <p>Make your notes easily with my Notes Page. It's a straightforward tool made with basic HTML, CSS, and JavaScript for quick and simple digital note-taking.</p>
+                        <a href="https://chandrakanth2001.github.io/Notespage/" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+    <!----Final part-->
+
+    <div id="portfolio">
+        <div class="container">
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="/images/Agecalculator.png"/>
+                    <div class="layer">
+                        <h3>Check Your Age</h3>
+                        <p>Discover your age in an instant with my user-friendly Age Calculator. This handy tool, designed with HTML, CSS, and JavaScript, allows you to input your birthdate and effortlessly computes your current age, providing a straightforward and convenient way to track the passing years.</p>
+                        <a href="https://chandrakanth2001.github.io/Age-Calculator/" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="/images/stopwatch.png"/>
+                    <div class="layer">
+                        <h3>StopWatch (HTML,CSS,Js)</h3>
+                        <p>Experience timekeeping simplicity with my Stopwatch project. Crafted with basic HTML, CSS, and JavaScript, this user-friendly tool lets you effortlessly measure elapsed time with just a click.</p>
+                        <a href="https://chandrakanth2001.github.io/Stopwatch/" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="/images/musicplayer.png"/>
+                    <div class="layer">
+                        <h3>Musically(HTML,CSS,Js)</h3>
+                        <p>Enjoy your favorite tunes with my straightforward Music Player. Designed with simplicity in mind, this HTML, CSS, and JavaScript-powered player lets you play, pause, and switch between songs with ease.</p>
+                        <a href="https://chandrakanth2001.github.io/MusicPage/" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+        <!---------contact section--------->
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> &nbsp;rajeevchandrakanth007@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>&nbsp;7306269151</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/chandrakanth2001" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/chandrakanth-r-7ba754243" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://instagram.com/_chandrakanth._?igshid=NGVhN2U2NjQ0Yg==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://replit.com/@ChandrakanthR1" target="_blank"><i class="fa-solid fa-cubes-stacked"></i></a>
+                    </div>
+                        <a href="images/Chandrakanth R_Resume.pdf" download class="btn btn2">Download My Resume</a>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Type Your Name" required>
+                        <input type="email" name="Email" placeholder="Type Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+            </div>
+<div class="copyright">
+    <p>Copyright  &#169; Chandrakanth R 2024</p>
+</div>
+        </div>
+        
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link")
+                document.getElementById(tabname).classList.add("active-tab")
+
+            }
+        </script>
+
+        <script>
+
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+
+        </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyEkboQslS3ONHwjwhrQ85oCeDmw1ZfZtIyoMNzeEalDl5gTc6b_RkZr29ynl5waUlsGA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },4000)
+                form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
